@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Package for World of Bakchods Web/Android/iOS Application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunnyChoudhary0710/worldOfBakchods.git"
+  },
+  "author": "Sunny Choudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunnyChoudhary0710/worldOfBakchods/issues"
+  },
+  "homepage": "https://github.com/sunnyChoudhary0710/worldOfBakchods#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.0.4",
+    "morgan": "^1.9.0"
+  }
+}
